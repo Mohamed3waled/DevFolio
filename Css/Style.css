@@ -369,11 +369,11 @@ svg {
 .center-b {
     padding-top: 40%;
 }
-@media (max-width: 576px) { 
+/* @media (max-width: 576px) { 
     .center-b {
         padding-top: 200%;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .center-b {
