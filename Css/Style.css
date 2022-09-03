@@ -363,7 +363,7 @@ svg {
 @media (max-width: 576px) {
     .bg-section-4 {
         background-attachment: scroll;
-        height: 125vh;
+        height: 100vh;
     }
 }
 .center-b {
@@ -371,7 +371,7 @@ svg {
 }
 @media (max-width: 576px) { 
     .center-b {
-        padding-top: 120%;
+        padding-top: 200%;
     }
 }
 
