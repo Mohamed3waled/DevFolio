@@ -459,10 +459,10 @@ svg {
 @media (max-width: 576px) {
     .contact {
         background-attachment: scroll;
-        height: 220vh;
+        height: 105vh;
     }
     .overlay-contact {
-        height: 220vh;
+        height: 105vh;
     }
 
     .shadow-7 {
