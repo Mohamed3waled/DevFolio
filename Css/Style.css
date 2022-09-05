@@ -127,20 +127,34 @@ animation: writer 5s infinite;
 @keyframes writer {
     0%{content: "D|";}
     5%{content: "De|";}
-    15%{content: "Dev|";}
-    20%{content: "Deve|";}
-    30%{content: "Devel|";}
+    8%{content: "Dev|";}
+    12%{content: "Deve|";}
+    15%{content: "Devel|";}
+    18%{content: "Develo|";}
+    23%{content: "Develop|";}
+    26%{content: "Develope|";}
+    30%{content: "Developer|";}
+    32%{content: "Develope|";}
+    36%{content: "Develop|";}
     40%{content: "Develo|";}
-    50%{content: "Develop|";}
-    55%{content: "Develope|";}
-    60%{content: "Developer|";}
-    65%{content: "Develope|";}
-    70%{content: "Develop|";}
-    75%{content: "Develo|";}
-    80%{content: "Devel|";}
-    85%{content: "Deve|";}
-    90%{content: "Dev|";}
-    95%{content: "De|";}
+    44%{content: "Devel|";}
+    48%{content: "Deve|";}
+    53%{content: "Dev|";}
+    58%{content: "De|";}
+    62%{content: "D|";}
+    66%{content: "De|";}
+    70%{content: "Des|";}
+    70%{content: "Desi|";}
+    73%{content: "Desig|";}
+    78%{content: "Design|";}
+    80%{content: "Designe|";}
+    84%{content: "Designer|";}
+    87%{content: "Designe|";}
+    90%{content: "Design|";}
+    93%{content: "Desig|";}
+    96%{content: "Desi|";}
+    97%{content: "Des|";}
+    99%{content: "De|";}
     100%{content: "D|";}
 }
 /*  End Section-1 */
