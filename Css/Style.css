@@ -119,6 +119,7 @@ h1 {
 .container .type-writer::before {
 position: absolute;
 right: center;
+transform: translateX(-50%);
 content: '';
 animation: writer 5s infinite;
 text-align: center;
