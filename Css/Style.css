@@ -447,14 +447,12 @@ svg {
     font-weight: 400;
 }
 
-.title h3::after {
-    content:'';
-    position: absolute;
-    width: 20%;
+.under-line {
+    width: 12%;
     height: 3px;
-    left: 0;
-    top: 100%;
     background-color: var(--main-color);
+    display: block;
+    margin: 0 0 0 5px;
 }
 
 form input {
