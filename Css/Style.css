@@ -118,31 +118,30 @@ h1 {
 /* Type Writer */
 .container .type-writer::before {
 position: absolute;
-right: center;
+content: '|';
 transform: translateX(-50%);
-content: '';
 animation: writer 5s infinite;
-text-align: center;
+/* text-align: center; */
 }
 
 @keyframes writer {
-    0% {content: "D";}
-    10% {content: "De";}
-    20% {content: "Dev";}
-    25% {content: "Deve";}
-    30% {content: "Devel";}
-    35% {content: "Develo";}
-    40% {content: "Develop";}
-    45% {content: "Develope";}
-    50% {content: "Developer";}
-    55% {content: "Develope";}
-    66% {content: "Develop";}
-    75% {content: "Develo";}
-    80% {content: "Devel";}
-    85% {content: "Deve";}
-    90% {content: "Dev";}
-    95% {content: "De";}
-    100% {content: "";}
+    0% {content: "D|";}
+    10% {content: "De|";}
+    20% {content: "Dev|";}
+    25% {content: "Deve|";}
+    30% {content: "Devel|";}
+    35% {content: "Develo|";}
+    40% {content: "Develop|";}
+    45% {content: "Develope|";}
+    50% {content: "Developer|";}
+    55% {content: "Develope|";}
+    60% {content: "Develop|";}
+    75% {content: "Develo|";}
+    80% {content: "Devel|";}
+    85% {content: "Deve|";}
+    90% {content: "Dev|";}
+    95% {content: "De|";}
+    100% {content: "D|";}
 }
 /*  End Section-1 */
 /* Start Section-2 */
@@ -351,34 +350,26 @@ svg {
     background-attachment: fixed;
     height: 90vh;
 }
-.bg-section-4 .overlay {
-    position: absolute;
-    background-color: #0078ff;
-    opacity: .7;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 100%;
+.bg-section-4 .overlay-4 {
+    height: 90vh;
+    background-color: rgba(0, 98, 211,.8);
 }
 @media (max-width: 576px) {
     .bg-section-4 {
         background-attachment: scroll;
-        height: 100vh;
+        height: 100%
     }
+
 }
+@media (min-width: 992px) { 
 .center-b {
     padding-top: 40%;
 }
-/* @media (max-width: 576px) { 
-    .center-b {
-        padding-top: 200%;
-    }
-} */
+}
 
 @media (max-width: 768px) {
     .center-b {
-        padding-top: 100%;
+        padding-top: 95%;
     }
 }
 
